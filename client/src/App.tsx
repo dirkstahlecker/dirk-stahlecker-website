@@ -33,15 +33,14 @@ class App extends React.Component<AppProps>
 
   componentDidMount()
   {
-    this.fetchData();
+    // this.fetchData();
   }
 
   render()
   {
     return <div className="App">
-      The value returned from the server is:
-      {this.machine.testData}
-    </div>
+      <div className="center">This site is under construction</div>
+    </div>;
   }
 }
 

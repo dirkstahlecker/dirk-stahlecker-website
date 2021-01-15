@@ -1,5 +1,22 @@
-.App {
+.center {
+  position: absolute;
+  width: 350px;
+  height: 30px;
+  top: 50%;
+  left: 50%;
+  margin-left: -175px; /* margin is -0.5 * dimension */
+  margin-top: -25px;
   text-align: center;
+}
+
+body {
+  background-color: #282c34;
+  color: #FFF;
+  font-size: 24px;
+}
+
+.App {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', sans-serif;
 }
 
 .App-logo {
